@@ -19,10 +19,10 @@ const cleanedInputString = inputString.replace(/[\W_]/g, "").toLowerCase();
 const reversedString= cleanedInputString.split("").reverse().join("");
 
 if (reversedString === cleanedInputString) {
-   return `${inputString} is a palindrome.`;
+   return `${inputString} is a palindrome. ✔️`;
  }
 else {
-  return `${inputString} is not a palindrome.`;
+  return `${inputString} is not a palindrome. ✖️`;
  }
 }
 checkButton.addEventListener("click", showResult );
