@@ -14,7 +14,6 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
-
 }
 
 
@@ -25,20 +24,10 @@ header {
   gap: 20px;
   color: white;
   font-size: 25px;
-  
-
-
-
 }
+
 h1{
   text-align: center;
-}
-
-#logo {
-  width: 300px;
-  background-color: #0a0a23;
-  aspect-ratio: 35 / 4;
-  padding: 0.4rem;
 }
 
 main {
@@ -63,8 +52,6 @@ main label {
   padding: 5px;
   margin-bottom: 20px;
   color: #0a0a23;
-
-
 }
 
 #text-input {
@@ -109,16 +96,11 @@ button:hover {
   padding: 20px;
   border-radius: 20px;
   margin: 10px;
-
-
 }
 
 #palindrome-definition p {
   margin: 0 20px;
   font-size: 19px;
-
-
-
 }
 
 @media (max-width: 400px) {
